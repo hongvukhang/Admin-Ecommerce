@@ -1,0 +1,26 @@
+.inforboard-container{
+    display: flex;
+    justify-content: space-between;
+}
+.inforbard-element{
+    background-color: white;
+    width: 24.5%;
+    height: 100px;
+    display: flex;
+    padding: 0 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+}
+.inforbard-element-title >h2{
+    margin: 0;
+}
+.inforbard-element-title>p {
+    margin: 0;
+    font-size: 14px;
+    color: #00000079;
+}
+.inforbard-element svg{
+    font-size: 26px;
+    color: #00000079;
+}

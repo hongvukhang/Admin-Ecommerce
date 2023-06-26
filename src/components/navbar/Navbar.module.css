@@ -1,0 +1,33 @@
+.nav-container{
+    display: flex;
+    background-color: #24252A;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+    height: 50px;
+}
+
+.nav-container>p{
+    margin: 0;
+}
+.nav-element{
+    display: flex;
+    margin: 0;
+}
+
+.link{
+    color: white;
+}
+li{
+    list-style-type: none;
+    margin: 0 6px;
+    font-size: 12px;
+
+}
+.login-btn{
+    background-color: rgb(2, 137, 168);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 2px 13px;
+}

@@ -1,0 +1,77 @@
+.box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: #52525247;
+}
+.alert-container{
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.alert-title{
+    height: 50%;
+    border-radius: 10px 10px 0 0 ;
+}
+
+
+
+.alert-title button{
+    display: block;
+    float: right;
+    background: none;
+    border: none;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: cursive;
+    color: #00000052;
+}
+.alert-title svg{
+    width: 125px;
+    height: 125px;
+    color: white;
+    display: block;
+    margin: 60px auto;
+}
+
+.alert-content{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+}
+.alert-content h3 {
+    color: black;
+}
+.alert-content div {
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.alert-content button {
+    width: 130px;
+    height: 45px;
+    border-radius: 22px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+.alert-content button:nth-child(1) {
+    background-color: rgb(119, 158, 203);
+}
+.alert-content button:nth-child(2) {
+    background-color: rgb(216, 82, 97);
+}
